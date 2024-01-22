@@ -1,0 +1,21 @@
+name: auto_route_popscope
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  auto_route: ^7.8.4
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  auto_route_generator: ^7.3.2
+  build_runner: ^2.4.8
+  custom_lint: ^0.5.8
+  pyramid_lint: ^1.3.0
+
+flutter:
+  uses-material-design: true
